@@ -11,8 +11,7 @@ function getData() {
 }
 
 function prayerTime(city) {
-    // let prayerTimeApi = `https://dailyprayer.abdulrcs.repl.co/api/${city}`
-    let prayerTimeApi = `https://dailyprayer.abdulrcs.repl.co/api/karachi`
+    let prayerTimeApi = `https://dailyprayer.abdulrcs.repl.co/api/${city}`
     axios.get(prayerTimeApi)
         .then(
             function (res) {
@@ -37,7 +36,7 @@ function prayerTime(city) {
         )
 
 }
-prayerTime()
+// prayerTime()
 
 function handleBackground(bgImage) {
     let d = new Date()
