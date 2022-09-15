@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="./style/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="header">
+            <div class="col1">
+                <h2 class="msg">Prayer Timing</h2>
+                <h3 class="city"></h3>
+            </div>
+
+        </div>
+        <form onsubmit="getData(); return false">
+            <input type="text" id="city">
+            <button type="submit">Check</button>
+        </form>
+        <ul id="result">
+            <!-- <li>
+                <div class="left"><div class="color"></div><div class="name" >Fajr</div></div> <div class="time">05:00</div>
+            </li> -->
+        </ul>
+        <div class="footer"></div>
+    </div>
+
+    <script src="./js/app.js"></script>
+
+</body>
+
+</html>
