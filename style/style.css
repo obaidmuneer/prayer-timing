@@ -16,7 +16,7 @@ body {
     justify-content: center;
     font-family:Montserrat; 
     color:#e2e9e9;
-    background-color: blueviolet;
+    background-color: #004d40;
     font-size:14px;
 
 }
@@ -56,7 +56,7 @@ li{
     align-items: center;
     font-size: 16px;
     /* font-weight: 500; */
-    border: 1px solid #4a0072;
+    border: 1px solid #004d40;
     margin-bottom: 1%;
 }
 
@@ -68,7 +68,7 @@ li{
     margin-left: 2px;
 }
 .color{
-    background-color: #4a0072;
+    background-color: #004d40;
     /* padding: 18%; */
     width: 0.3rem;
     height: 5vh;
@@ -120,21 +120,16 @@ button{
     width: 30%;
     padding: 2%;
     border-radius: 2px;
-    border: 2px solid #4a0072;
-    background-color: #7b1fa2;
+    border: 2px solid #000e0a;
+    background-color: #034632;
     color: whitesmoke;
+    transition: all 0.3s ease-in-out;
 }
 
 .header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-
-.footer {
-    display: flex;
-    overflow-x: auto;
-    margin-top:auto;
 }
 
 .city {
@@ -146,13 +141,13 @@ button{
 
 }
 
-.days {
+/* .days {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 3%;
-}
+} */
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     width: 10px;
-  }
+  } */
