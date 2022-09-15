@@ -1,12 +1,9 @@
 // let bgImage = document.querySelector('.container')
 function getData() {
     let city = document.querySelector('#city').value
-    let footer = document.querySelector('.footer')
-    let apiKey = '55ff5b9f1aa556e25d9767c01329b185'
-    footer.innerHTML = ''
+    document.querySelector('#result').innerHTML = ''
 
     prayerTime(city)
-    // forecast(city, apiKey)
 
 }
 
@@ -31,12 +28,11 @@ function prayerTime(city) {
         .catch(
             function (err) {
                 console.log(err);
-                // document.querySelector('.city').innerHTML = err.response.data.message
+                document.querySelector('.city').innerHTML = err.response.data.message
             }
         )
 
 }
-// prayerTime()
 
 function handleBackground(bgImage) {
     let d = new Date()
