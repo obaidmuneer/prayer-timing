@@ -9,6 +9,7 @@
 html,
 body {
     min-height: 100%;
+    overflow: hidden;
 }
 
 body {
@@ -29,7 +30,7 @@ body {
     background-size: cover;
     display: flex;
     flex-direction: column;
-    overflow-y: scroll;
+    overflow-y: auto;
 
 }
 
@@ -146,3 +147,7 @@ button {
     margin-left: 20%;
     display: none;
 }
+
+::-webkit-scrollbar {
+    width: 0px;
+  }
