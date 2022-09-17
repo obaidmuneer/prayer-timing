@@ -151,3 +151,9 @@ button{
 /* ::-webkit-scrollbar {
     width: 10px;
   } */
+
+  .loader{
+    margin-top: 15%;
+    margin-left: 20%;
+    display: none;
+  }
